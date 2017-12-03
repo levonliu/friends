@@ -1,0 +1,11 @@
+.weui-navbar__item.weui-bar__item_on {
+    background-color: #ffffff;
+    border-bottom: 3px solid #36acf4;
+    color: #36acf4;
+}
+.weui-panel{
+    margin-top: 0;
+}
+.weui-btn {
+    border-radius: 0;
+}
