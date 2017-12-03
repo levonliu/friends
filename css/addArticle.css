@@ -1,0 +1,39 @@
+.addArticle {
+    display: flex;
+    flex-direction: column;
+}
+
+.publish_title{
+    padding: 10px;
+}
+
+.publish_title .title{
+    display: flex;
+    flex-direction: column;
+}
+.weui-cell{
+    padding: 2px 15px;
+}
+.publish_title input{
+    margin-top: 3px;
+    height: 30px;
+    width: 90%;
+}
+
+.publish_content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 5;
+    margin: 10px;
+    background: white;
+}
+.publish_content .weui-cells{
+    margin-top: 0;
+}
+.publish_content .oper{
+    text-align: center;
+}
+
+.publish_submit {
+    padding: 25px 10px;
+}
