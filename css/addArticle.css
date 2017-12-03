@@ -1,5 +1,6 @@
-.addArticle {
+.weui-flex {
     display: flex;
+    display: -webkit-flex; /* Safari */
     flex-direction: column;
 }
 
@@ -21,11 +22,7 @@
 }
 
 .publish_content{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 5;
     margin: 10px;
-    background: white;
 }
 .publish_content .weui-cells{
     margin-top: 0;
