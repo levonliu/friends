@@ -33,6 +33,10 @@
 .publish_content .oper{
     text-align: center;
 }
+.oper i {
+    width: 20px;
+}
+
 
 .publish_submit {
     padding: 25px 10px;
