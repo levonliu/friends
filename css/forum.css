@@ -21,9 +21,34 @@
 .forum_selectedTitle{
     color: red;
 }
+
+/*publish_forum*/
 .text-area-height{
     height: 90%;
 }
 .text-area{
     flex: 1;
+}
+.comment_bottom{
+    display: flex;
+    justify-content:flex-end;
+}
+.comment_bottom p{
+    margin-right: 25px;
+}
+.comment_bottom a{
+    color: orange;
+}
+.forum_comment{
+    text-align: end;
+}
+.comment_list{
+    margin-top: 0;
+}
+
+/*comment_forum*/
+.comment_title{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px 10px 0 10px;
 }
