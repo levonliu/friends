@@ -1,0 +1,7 @@
+.resource_btn{
+    justify-content: center;
+    margin: 15px;
+}
+.resource_btn div{
+    width: 100px;
+}

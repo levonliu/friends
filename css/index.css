@@ -1,3 +1,12 @@
+.weui-tab{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.weui-navbar+.weui-tab__panel{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .weui-navbar__item.weui-bar__item_on {
     background-color: #ffffff;
     border-bottom: 3px solid #36acf4;

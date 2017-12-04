@@ -6,7 +6,7 @@
     <title>Friends</title>
     <link rel="stylesheet" href="//res.wx.qq.com/open/libs/weui/1.1.2/weui.min.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/addArticle.css">
+    <link rel="stylesheet" href="css/resource.css">
     <link rel="stylesheet" href="font/css/font-awesome.min.css">
 </head>
 <body>
@@ -14,10 +14,10 @@
     <!--Navbar-->
     <div class="weui-tab">
         <div class="weui-navbar">
-            <div class="weui-navbar__item weui-bar__item_on">
+            <div class="weui-navbar__item">
                 我的
             </div>
-            <div class="weui-navbar__item">
+            <div class="weui-navbar__item weui-bar__item_on">
                 资源
             </div>
         </div>
@@ -25,7 +25,14 @@
             <!--文章列表-->
             <div>
                 <!--新增文章-->
-                <a href="javascript:void(0);" class="weui-btn weui-btn_primary"><i class="fa fa-plus"></i> 添加文章</a>
+                <div class="weui-flex resource_btn">
+                    <div>
+                        <a href="javascript:;" class="weui-btn weui-btn_primary">最新文章</a>
+                    </div>
+                    <div>
+                        <a href="javascript:;" class="weui-btn weui-btn_default">收藏</a>
+                    </div>
+                </div>
                 <div class="weui-panel weui-panel_access">
                     <div class="weui-panel__bd">
                         <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
@@ -38,6 +45,9 @@
                                 <h4 class="weui-media-box__title">标题一</h4>
                                 <p class="weui-media-box__desc">时间：2017-12-03 阅读量：20000</p>
                             </div>
+                            <div class="resource_collec">
+                                <i class="fa fa-star"></i>
+                            </div>
                         </a>
                         <a href="javascript:void(0);" class="weui-media-box weui-media-box_appmsg">
                             <div class="weui-media-box__hd">
@@ -48,6 +58,9 @@
                             <div class="weui-media-box__bd">
                                 <h4 class="weui-media-box__title">标题二</h4>
                                 <p class="weui-media-box__desc">时间：2017-12-03 阅读量：20000</p>
+                            </div>
+                            <div class="resource_collec">
+                                <i class="fa fa-star-o"></i>
                             </div>
                         </a>
                     </div>
