@@ -1,0 +1,29 @@
+.flex-column{
+    flex-direction: column;
+    box-sizing: border-box;
+    height: 100%;
+}
+.publish_content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.forum_content{
+    flex: 1;
+    margin-top: 0;
+}
+.forum_sub{
+    padding: 20px 70px 0 70px;
+}
+.forum_list{
+    flex: 1;
+}
+.forum_selectedTitle{
+    color: red;
+}
+.text-area-height{
+    height: 90%;
+}
+.text-area{
+    flex: 1;
+}

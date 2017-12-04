@@ -1,0 +1,20 @@
+.edit_content{
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.show_article{
+    flex:1;
+}
+.edit_oper{
+    justify-content: flex-end;
+    margin-bottom: 11px;
+}
+.edit_oper span{
+    margin-left: 20px;
+}
+
+.edit_submit{
+
+}
