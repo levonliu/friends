@@ -1,0 +1,67 @@
+.mine_introduce{
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 53px;
+    width: 100%;
+}
+.mine_head{
+    flex: 1.5;
+    background: url("../images/background.jpg") no-repeat;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.mine_avatar{
+    z-index: 10000;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mine_avatar img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.mine_detail{
+    flex: 2;
+}
+.mine_detail img{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+
+
+/*mine_recharge*/
+.mine_recharge_detail{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+.select_recharge{
+    flex: 2;
+}
+.select_recharge h4{
+    margin: 0 20px 10px;
+    font-size: 20px;
+}
+.recharge_sub{
+    flex: 1;
+}
+
+/*mine_recharge_list*/
+.mine_recharge_list{
+    flex-direction: column;
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    bottom: 53px;
+    width: 100%;
+}
+.mine_recharge_list h3{
+    margin: 15px;
+}

@@ -1,0 +1,12 @@
+.ac_title a{
+    color: orange;
+}
+.flex-center{
+    align-items: center;
+}
+.ac_title_p{
+    margin-right: 10px;
+}
+.title_time{
+    font-size: 14px;
+}
